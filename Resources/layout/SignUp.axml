@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:background="#7B8187"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	android:minWidth="25px"
+    android:minHeight="25px">
+   <EditText
+        android:hint="Full Name"
+		android:textColor="#ffffff"
+		android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtfullname"/>
+    <EditText
+        android:hint="Username"
+		android:textColor="#ffffff"
+		android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtusername"/>
+    <EditText
+        android:hint="Email"
+		android:textColor="#ffffff"
+		android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtEmail"
+         />
+    <EditText
+        android:hint="Mobile"
+		android:textColor="#ffffff"
+		android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtMobile"
+        android:inputType="phone" />
+    <EditText
+        android:hint="Password"
+		android:textColor="#ffffff"
+		android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtpassword"
+        android:inputType="textPassword" />
+    <Button
+        android:background="#AD1457"
+		android:text="Create"
+		android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btnCreate" />
+    <Button
+        android:background="#FF8A80"
+		android:text="Back to Home"
+		android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btnBack" />
+</LinearLayout>

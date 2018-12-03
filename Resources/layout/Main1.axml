@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:background="#7B8187"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:hint="Username"
+		android:textColor="#ffffff"
+		android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/txtusername"/>
+    <EditText
+        android:hint="Password"
+		android:textColor="#ffffff"
+		android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/txtpassword"
+        android:inputType="textPassword" />
+    <Button
+        android:background="#AD1457"
+		android:text="Sign In"
+		android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btnSign" />
+    <TextView
+        android:text="Or"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/txtOr" />
+    <Button
+		android:background="#FF45"
+        android:text="Create an Account"
+		android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btnSignUp" />
+</LinearLayout>
